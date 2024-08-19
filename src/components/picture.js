@@ -1,5 +1,3 @@
-import React from "react";
-
 const Picture = ({ data }) => {
   return (
     <>
@@ -9,8 +7,8 @@ const Picture = ({ data }) => {
           <div key={item.index}>
             <div className="images">
               <img src={item.src} alt="" />
+              <h3 className="names">{item.name}</h3>
             </div>
-            <h3 className="names">{item.name}</h3>
           </div>
         ))}
       </div>
