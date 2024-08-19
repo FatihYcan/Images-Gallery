@@ -1,4 +1,4 @@
-# ImagesGallery
+# Images Gallery
 
 This project is an image gallery application built with React. Each image is displayed with a name and includes a hover effect to enhance user experience.
 
